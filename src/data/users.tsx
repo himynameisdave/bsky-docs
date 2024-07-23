@@ -1233,6 +1233,15 @@ const Users: User[] = [
     author: 'https://bsky.app/profile/did:plc:4ee6oesrsbtmuln4gqsqf6fp',
     tags: ['client', 'opensource']
   },
+  {
+    title: 'MacRumors Buyers Guide',
+    description: 'A bot for Bluesky which skeets out any changes to the MacRumors Buyers Guide.',
+    preview: require('./showcase/example-1.png'),
+    website: 'https://bsky.app/profile/macrumorsbuyguide.bsky.social',
+    source: 'https://github.com/himynameisdave/macrumors-buyersguide-bsky',
+    author: 'https://bsky.app/profile/did:plc:hzsrymttpiiag4ve5f4gxan4',
+    tags: ['bot', 'opensource']
+  },
 ]
 
 export type User = {
